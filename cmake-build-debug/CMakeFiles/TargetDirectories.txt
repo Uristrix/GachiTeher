@@ -1,0 +1,3 @@
+C:/LessTeher/cmake-build-debug/CMakeFiles/LessTeher.dir
+C:/LessTeher/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/LessTeher/cmake-build-debug/CMakeFiles/rebuild_cache.dir

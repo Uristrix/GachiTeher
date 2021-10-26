@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LessTeher"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\Program Files (x86)\;CMake Files\..\Program Files (x86)\mingw+SFML\;CMake Files\..\Program Files (x86)\mingw+SFML\lib\;CMake Files\..\Program Files (x86)\mingw+SFML\lib\cmake\;CMake Files\..\Program Files (x86)\mingw+SFML\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/LessTeher/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LessTeher">
+				<Option output="C:/LessTeher/cmake-build-release/LessTeher.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/LessTeher/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/include"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 LessTeher"/>
+					<CompileFile command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LessTeher/fast">
+				<Option output="C:/LessTeher/cmake-build-release/LessTeher.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/LessTeher/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/include"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw+SFML/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 LessTeher/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/LessTeher/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/LessTeher/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW_~1/bin/mingw32-make.exe -f &quot;C:/LessTeher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/LessTeher/Character.cpp">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Character.h">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Dialogue.cpp">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Dialogue.h">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Enemy.cpp">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Enemy.h">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/GachiTaker.h">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Hero.cpp">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Hero.h">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Interface.cpp">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Interface.h">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Level.h">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Menu.cpp">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Menu.h">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/Move.h">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/main.cpp">
+			<Option target="LessTeher"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/../Program Files (x86)/mingw+SFML/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\Program Files (x86)\mingw+SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/../Program Files (x86)/mingw+SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\Program Files (x86)\mingw+SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/../Program Files (x86)/mingw+SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\Program Files (x86)\mingw+SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/../Program Files (x86)/mingw+SFML/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\Program Files (x86)\mingw+SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/../Program Files (x86)/mingw+SFML/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\Program Files (x86)\mingw+SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/LessTeher/../Program Files (x86)/mingw+SFML/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\Program Files (x86)\mingw+SFML\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
